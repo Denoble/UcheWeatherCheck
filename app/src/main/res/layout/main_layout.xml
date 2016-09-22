@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/cityText"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#8ba9a5"
+        android:layout_centerHorizontal="true" />
+    <FrameLayout
+        android:id="@+id/My_Container_1_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cityText"
+        />
+
+
+
+    <FrameLayout
+        android:id="@+id/My_Container_3_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@id/My_Container_1_ID"
+
+        />
+    <FrameLayout
+        android:id="@+id/My_Container_2_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/My_Container_3_ID"
+        />
+        <FrameLayout
+            android:id="@+id/My_Container_4_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignBaseline="@id/My_Container_2_ID"
+
+            >
+
+            </FrameLayout>
+
+
+
+</LinearLayout>

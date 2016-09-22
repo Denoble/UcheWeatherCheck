@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/cityLabel"
+        android:text="@string/cityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="text"
+        android:hint="@string/cityName"
+        android:id="@+id/editCity"
+
+        android:layout_toRightOf="@id/cityLabel"
+        android:layout_alignBaseline="@id/cityLabel"
+        />
+    <TextView
+        android:id="@+id/countryLabel"
+        android:text="@string/countryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="text"
+        android:hint="@string/countryName"
+        android:layout_toRightOf="@id/countryLabel"
+        android:layout_alignBaseline="@id/countryLabel"
+        android:id="@+id/editCountry"/>
+        <Button
+            android:id="@+id/go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go"/>
+
+</LinearLayout>

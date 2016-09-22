@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UcheWeatherCheck</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="stringAddress">Get Address</string>
+    <string name="sun">Sun</string>
+    <string name="grass">Grass</string>
+    <string name="sky">Sky</string>
+    <string name ="go">Go</string>
+    <string name="cityName">city Name</string>
+    <string name="countryName">country Name</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
